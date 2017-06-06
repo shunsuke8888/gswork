@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Map</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h3>Locations</h3>
+  <div id="videoList">
+  </div>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeXHLIyBLHVgbqsEhmp39A0KJMDak1JxU&callback=initMap" async defer></script>
+ 
+   <script src="js/app.js"></script>
+  
+  
+  
+  <div id="map">map</div>
+
+<dl id="counting">
+	<dt>緯度</dt>
+	<dd id="latitude">-</dd>
+
+	<dt>経度</dt>
+	<dd id="longitude">-</dd>
+
+<!--
+	<dt>緯度・経度の精度</dt>
+	<dd id="accuracy">-</dd>
+-->
+
+<!--
+	<dt>GPS 高度</dt>
+	<dd id="altitude">-</dd>
+-->
+
+<!--
+	<dt>GPS 高度の精度</dt>
+	<dd id="altitudeAccuracy">-</dd>
+-->
+
+	<dt>移動方向</dt>
+	<dd id="heading">-</dd>
+
+	<dt>移動速度</dt>
+	<dd id="speed">-</dd>
+
+	<dt>タイムスタンプ</dt>
+	<dd id="timestamp">-</dd>
+
+<button id="nowplace">今はここだよ</button>
+</dl>
+    <div id="floating-panel">
+
+      <input id="submit" type="button" value="Reverse Geocode">
+    </div>
+    
+    <div id="map2">map2</div>
+
+<!--
+<script>
+    var x = "#latitude";
+    var y = "#longitude";
+   
+    <script language="javascript" charset="UTF-8" type="text/javascript" src="http://map.simpleapi.net/stationapi?x=x,&y=y&output=javascript"></script>
+
+    </script>
+-->
+
+
+
+</body>
+</html>
